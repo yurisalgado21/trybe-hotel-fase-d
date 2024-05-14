@@ -12,7 +12,13 @@ namespace TrybeHotel.Repository
         }
         public UserDto GetUserById(int userId)
         {
-            throw new NotImplementedException();
+            var user =  _context.Users.First(u => u.UserId == userId);
+            return new UserDto {
+                userId = user.UserId,
+                Name = user.Name,
+                Email = user.Email,
+                userType = user.UserType
+            };
         }
 
         public UserDto Login(LoginDto login)
@@ -77,7 +83,12 @@ namespace TrybeHotel.Repository
 
         public IEnumerable<UserDto> GetUsers()
         {
-            throw new NotImplementedException();
+            return _context.Users.Select(u => new UserDto {
+                userId = u.UserId,
+                Name = u.Name,
+                Email = u.Email,
+                userType = u.UserType
+            }).ToList();
         }
 
     }
