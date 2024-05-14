@@ -28,72 +28,18 @@
           }
         },
         {
-          "ruleId": "CS1519",
+          "ruleId": "CS1002",
           "level": "error",
-          "message": "Token inválido 'return' na declaração de membro de classe, de registro, de struct ou de interface",
+          "message": "; esperado",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///home/yuri/projects-trybe/csharp-033-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/StatusController.cs",
                 "region": {
-                  "startLine": 10,
-                  "startColumn": 9,
-                  "endLine": 10,
-                  "endColumn": 15
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "CS1519",
-          "level": "error",
-          "message": "Token inválido '{' na declaração de membro de classe, de registro, de struct ou de interface",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/yuri/projects-trybe/csharp-033-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/StatusController.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 20,
-                  "endLine": 10,
-                  "endColumn": 21
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "CS1519",
-          "level": "error",
-          "message": "Token inválido '=' na declaração de membro de classe, de registro, de struct ou de interface",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/yuri/projects-trybe/csharp-033-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/StatusController.cs",
-                "region": {
-                  "startLine": 10,
-                  "startColumn": 29,
-                  "endLine": 10,
-                  "endColumn": 30
-                }
-              }
-            }
-          ]
-        },
-        {
-          "ruleId": "CS1022",
-          "level": "error",
-          "message": "Definição de namespace ou tipo, ou final do arquivo esperado",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///home/yuri/projects-trybe/csharp-033-csharp-projeto-trybe-hotel-fase-d/src/TrybeHotel/Controllers/StatusController.cs",
-                "region": {
-                  "startLine": 12,
-                  "startColumn": 1,
-                  "endLine": 12,
-                  "endColumn": 2
+                  "startLine": 13,
+                  "startColumn": 48,
+                  "endLine": 13,
+                  "endColumn": 48
                 }
               }
             }
@@ -101,24 +47,10 @@
         }
       ],
       "rules": {
-        "CS1022": {
-          "id": "CS1022",
+        "CS1002": {
+          "id": "CS1002",
           "defaultLevel": "error",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1022)",
-          "properties": {
-            "category": "Compiler",
-            "isEnabledByDefault": true,
-            "tags": [
-              "Compiler",
-              "Telemetry",
-              "NotConfigurable"
-            ]
-          }
-        },
-        "CS1519": {
-          "id": "CS1519",
-          "defaultLevel": "error",
-          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1519)",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS1002)",
           "properties": {
             "category": "Compiler",
             "isEnabledByDefault": true,
