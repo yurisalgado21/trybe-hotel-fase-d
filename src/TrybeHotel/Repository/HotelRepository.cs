@@ -20,7 +20,8 @@ namespace TrybeHotel.Repository
                 name = h.Name,
                 address = h.Address,
                 cityId = h.CityId,
-                cityName = h.City!.Name
+                cityName = h.City!.Name,
+                state = h.City.State
             }).ToList();
         }
 
@@ -41,7 +42,8 @@ namespace TrybeHotel.Repository
                     name = newHotel.Name,
                     address = newHotel.Address,
                     cityId = newHotel.CityId,
-                    cityName = newHotel.City!.Name
+                    cityName = newHotel.City!.Name,
+                    state = newHotel.City.State
                 };
             }
             catch (Exception err)
