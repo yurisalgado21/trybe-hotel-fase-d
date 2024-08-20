@@ -1,5 +1,5 @@
 ## Projeto Trybe Hotel (Fase D FINAL)
-🧑‍💻 O que foi desenvolvido.
+🧑‍💻 O que foi desenvolvido
 
 minha missão inicial foi começar a desenvolver uma API responsável pelo controle de cidades, hotéis e quartos disponíveis para realizar reservas.
 ## Estrutura do Projeto
